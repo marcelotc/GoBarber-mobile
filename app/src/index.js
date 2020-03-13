@@ -1,17 +1,18 @@
 import React from 'react';
 import {
   View,
-  Text,
 } from 'react-native';
 
-const App = () => {
+import Teste from './Teste'
+
+const Index = () => {
   return (
     <>
       <View >
-        <Text>App</Text>
+        <Teste>Index</Teste>
       </View>
     </>
   );
 };
 
-export default App;
+export default Index;
