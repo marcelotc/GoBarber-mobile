@@ -1,3 +1,15 @@
 #root import
 
 yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
+
+instalado react navigation versão 4
+
+yarn add react-native-linear-gradient
+
+npx react-native link react-native-linear-gradient
+
+yarn add styled-components
+
+yarn add prop-types
+
+yarn add react-native-vector-icons
