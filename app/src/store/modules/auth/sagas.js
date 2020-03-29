@@ -37,7 +37,7 @@ export function* signUp({ payload }) {
         const { name, email, password } = payload;
 
         yield call(api.post, 'users', {
-            name, email, password, provider: true
+            name, email, password
         });
 
         //history.push('/');
